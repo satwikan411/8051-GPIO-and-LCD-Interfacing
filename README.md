@@ -32,7 +32,6 @@ This project demonstrates hardware-software synchronization and parallel communi
 4. The LCD will display the text "IIT BBSR".
 
 ## Result
-*(Upload your screenshot from the PDF here. Create a folder named `images`, upload the picture, and then replace the link below)*
 `![LCD Display Output](images/lcd_result.png)`
 
 *The output shows the successful initialization of the 2x16 LCD and the correct rendering of the string.*

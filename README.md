@@ -26,12 +26,12 @@ This project demonstrates hardware-software synchronization and parallel communi
 3.  **Busy Flag Polling (Crucial):** Instead of using arbitrary delay loops, the firmware includes a `READY` subroutine. It reads the busy flag (Bit 7 of the data bus) to check if the LCD is still processing the previous instruction before sending the next one. This ensures reliable communication and prevents data loss.
 
 ## Procedure & Execution
-1. Load the `[Code](code/lcd_display.asm)` code into the MCU 8051 IDE.
+1. Load the [Code](code/lcd_display.asm) code into the MCU 8051 IDE.
 2. Ensure the virtual hardware is configured with the LCD connected to the correct ports.
 3. Assemble and run the program.
 4. The LCD will display the text "IIT BBSR".
 
 ## Result
-`![LCD Display Output](images/lcd_result.png)`
+![LCD Display Output](images/lcd_result.png)
 
 *The output shows the successful initialization of the 2x16 LCD and the correct rendering of the string.*
